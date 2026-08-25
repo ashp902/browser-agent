@@ -1,0 +1,7 @@
+PAGE title="Account" url="https://shop.example/" snapshot="test-snapshot-id" epoch=0
+
+FORM @1 "Profile"
+  TEXTBOX @2 "Full name" value="Ashish Kumar"
+  CHECKBOX @3 "Newsletter opt-in" [checked]
+  TEXTBOX @4 "Bio" value="Runner and hiker."
+  BUTTON @5 "Save profile"

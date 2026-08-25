@@ -1,0 +1,7 @@
+PAGE title="Danger zone" url="https://shop.example/" snapshot="test-snapshot-id" epoch=0
+
+MAIN @1
+  H2 "Delete account"
+  PARAGRAPH "This action permanently removes your data."
+  BUTTON @2 "Delete account" description="This action permanently removes your data."
+  LINK @3 "Help center" href="https://shop.example/help"

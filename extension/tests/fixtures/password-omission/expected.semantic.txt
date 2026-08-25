@@ -1,0 +1,7 @@
+PAGE title="Sign in" url="https://shop.example/" snapshot="test-snapshot-id" epoch=0
+
+FORM @1 "Sign in"
+  TEXTBOX @2 "Email" value="ash@example.com"
+  TEXTBOX @3 "Password"
+  TEXTBOX @4 "One-time code"
+  BUTTON @5 "Sign in"

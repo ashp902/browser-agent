@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+  <head><title>Filters</title></head>
+  <body>
+    <form aria-label="Filters">
+      <label for="color">Color</label>
+      <select id="color">
+        <option value="">Any color</option>
+        <option value="black" selected>Black</option>
+        <option value="white">White</option>
+        <option value="red" disabled>Red (unavailable)</option>
+      </select>
+
+      <label for="sort">Sort</label>
+      <select id="sort" multiple size="3">
+        <option value="price-asc" selected>Price: low to high</option>
+        <option value="price-desc">Price: high to low</option>
+        <option value="rating">Rating</option>
+      </select>
+    </form>
+  </body>
+</html>

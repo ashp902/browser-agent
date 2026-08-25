@@ -1,0 +1,10 @@
+PAGE title="Checkout" url="https://shop.example/" snapshot="test-snapshot-id" epoch=0
+
+DIALOG @1 "Confirm return"
+  H2 "Start return for order #1004?"
+  COMBOBOX @2 "Reason" value="wrong-size"
+    OPTION "Wrong size" value="wrong-size" [selected]
+    OPTION "Damaged" value="damaged"
+  BUTTON @3 "Submit return"
+MAIN @4
+  BUTTON @5 "Place order"

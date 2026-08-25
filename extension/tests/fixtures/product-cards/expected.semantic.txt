@@ -1,0 +1,15 @@
+PAGE title="Search Results" url="https://shop.example/" snapshot="test-snapshot-id" epoch=0
+
+MAIN @1
+  REGION @2 "Results"
+    GROUP @6
+      H2 "Nike Pegasus 42"
+      TEXT "$120"
+      COMBOBOX @3 "Size" value="10"
+        OPTION "9" value="9"
+        OPTION "10" value="10" [selected]
+      BUTTON @4 "Buy"
+    GROUP @7
+      H2 "Adidas Ultraboost"
+      TEXT "$140"
+      BUTTON @5 "Buy"

@@ -1,0 +1,53 @@
+# -------------------------------------------------------------------
+# Browser Agent — gitignore
+# Kept explicit by section; anything not listed here is source.
+# -------------------------------------------------------------------
+
+# --- Dependencies ---------------------------------------------------
+node_modules/
+
+# --- Build outputs --------------------------------------------------
+dist/
+build/
+*.tsbuildinfo
+
+# --- Python ---------------------------------------------------------
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+.uv-cache/
+
+# --- Secrets & environment -----------------------------------------
+# Never commit provider keys or local configuration.
+.env
+.env.*
+*.local.json
+*.pem
+*.key
+secrets/
+
+# --- Test, eval, and tooling artifacts ------------------------------
+# E2E runs write frame captures, eval summaries, traces, screenshots.
+e2e/results/
+test-results/
+playwright-report/
+coverage/
+.coverage
+*.log
+
+# --- OS / editor cruft ----------------------------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/*
+!.vscode/extensions.json
+*.swp
+
+# --- Large binaries / local archives --------------------------------
+*.zip
+*.dmg

@@ -1,0 +1,10 @@
+PAGE title="Wrapper collapse" url="https://shop.example/" snapshot="test-snapshot-id" epoch=0
+
+MAIN @1
+  BUTTON @2 "Deep button"
+  GENERIC
+    PARAGRAPH "First standalone paragraph."
+    PARAGRAPH "Second standalone paragraph."
+  GENERIC
+    TEXT "Free shipping on orders over $75"
+    LINK @3 "Details" href="https://shop.example/info"

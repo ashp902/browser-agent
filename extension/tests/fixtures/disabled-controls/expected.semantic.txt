@@ -1,0 +1,9 @@
+PAGE title="Stock" url="https://shop.example/" snapshot="test-snapshot-id" epoch=0
+
+MAIN @1
+  REGION @2 "Results"
+    GENERIC
+      H2 "Nike Pegasus 42"
+      PARAGRAPH "$120"
+      BUTTON @3 "Buy" [disabled]
+    LINK @4 "Sold-out sale page" href="https://shop.example/sale" [disabled]

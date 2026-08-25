@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+  <head><title>Wrapper collapse</title></head>
+  <body>
+    <main>
+      <!-- Useless single-child wrappers must collapse away entirely -->
+      <div>
+        <div>
+          <div><button>Deep button</button></div>
+        </div>
+      </div>
+
+      <!-- Multi-child generic wrappers remain to preserve grouping context -->
+      <div class="multi">
+        <p>First standalone paragraph.</p>
+        <p>Second standalone paragraph.</p>
+      </div>
+
+      <!-- A wrapper with its own text plus one control is retained -->
+      <div class="banner">Free shipping on orders over $75
+        <a href="/info">Details</a>
+      </div>
+    </main>
+  </body>
+</html>

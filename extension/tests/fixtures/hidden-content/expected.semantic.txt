@@ -1,0 +1,4 @@
+PAGE title="Hidden content" url="https://shop.example/" snapshot="test-snapshot-id" epoch=0
+
+MAIN @1
+  BUTTON @2 "Visible action"

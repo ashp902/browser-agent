@@ -1,0 +1,28 @@
+PAGE title="Orders" url="https://shop.example/" snapshot="test-snapshot-id" epoch=0
+
+MAIN @1
+  TABLE @2 "Orders"
+    ROWGROUP @3
+      ROW @4
+        COLUMNHEADER "Order"
+        COLUMNHEADER "Date"
+        COLUMNHEADER "Status"
+        COLUMNHEADER "Total"
+        COLUMNHEADER "Actions"
+    ROWGROUP @5
+      ROW @6
+        CELL "#1004"
+        CELL "2026-08-01"
+        CELL "Delivered"
+        CELL "$89.00"
+        CELL
+          BUTTON @7 "Edit address"
+          BUTTON @8 "Delete"
+      ROW @9
+        CELL "#1003"
+        CELL "2026-07-15"
+        CELL "Shipped"
+        CELL "$140.00"
+        CELL
+          BUTTON @10 "Edit address"
+          BUTTON @11 "Delete"

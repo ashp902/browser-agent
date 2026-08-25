@@ -1,0 +1,20 @@
+PAGE title="Cart" url="https://shop.example/" snapshot="test-snapshot-id" epoch=0
+
+NAVIGATION @1 "Primary"
+  LIST @2
+    LISTITEM @3
+      LINK @4 "Products" href="https://shop.example/products"
+    LISTITEM @5
+      LINK @6 "Cart" href="https://shop.example/cart"
+    LISTITEM @7 "Orders"
+      LIST @8
+        LISTITEM @9
+          LINK @10 "View order 1" href="https://shop.example/orders/1"
+        LISTITEM @11
+          LINK @12 "View order 2" href="https://shop.example/orders/2"
+REGION @13 "Cart items"
+  LIST @14
+    LISTITEM @15 "Nike Pegasus 42, size 10"
+      BUTTON @16 "Remove"
+    LISTITEM @17 "Adidas Ultraboost, size 9"
+      BUTTON @18 "Remove"

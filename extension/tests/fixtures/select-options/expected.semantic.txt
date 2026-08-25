@@ -1,0 +1,12 @@
+PAGE title="Filters" url="https://shop.example/" snapshot="test-snapshot-id" epoch=0
+
+FORM @1 "Filters"
+  COMBOBOX @2 "Color" value="black"
+    OPTION "Any color" value=""
+    OPTION "Black" value="black" [selected]
+    OPTION "White" value="white"
+    OPTION "Red (unavailable)" value="red" [disabled]
+  LISTBOX @3 "Sort" value="price-asc"
+    OPTION "Price: low to high" value="price-asc" [selected]
+    OPTION "Price: high to low" value="price-desc"
+    OPTION "Rating" value="rating"

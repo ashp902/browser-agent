@@ -1,0 +1,6 @@
+PAGE title="Article" url="https://shop.example/" snapshot="test-snapshot-id" epoch=0
+
+REGION @1 "Running guide"
+  H1 "Choosing running shoes"
+  PARAGRAPH "This paragraph intentionally exceeds the per-node text limit so the deterministic truncation behavior can be verified. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proid..."
+  LINK @2 "More guides" href="https://shop.example/guides"

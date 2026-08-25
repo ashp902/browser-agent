@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+  <head><title>Checkout</title></head>
+  <body>
+    <dialog open aria-label="Confirm return">
+      <h2>Start return for order #1004?</h2>
+      <label for="reason">Reason</label>
+      <select id="reason">
+        <option value="wrong-size" selected>Wrong size</option>
+        <option value="damaged">Damaged</option>
+      </select>
+      <button>Submit return</button>
+    </dialog>
+
+    <!-- Background content stays in the DOM and must not leak into the dialog group -->
+    <main>
+      <button>Place order</button>
+    </main>
+  </body>
+</html>

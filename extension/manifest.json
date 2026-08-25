@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "Browser Agent",
+  "version": "0.1.0",
+  "description": "Task-focused browser agent. Observes the current page semantically and executes constrained, user-authorized actions.",
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "sidePanel",
+    "storage"
+  ],
+  "host_permissions": [
+    "http://localhost:8000/*",
+    "http://localhost:5173/*"
+  ],
+  "background": {
+    "service_worker": "service-worker.js",
+    "type": "module"
+  },
+  "side_panel": {
+    "default_path": "sidepanel.html"
+  },
+  "action": {
+    "default_title": "Open Browser Agent"
+  }
+}

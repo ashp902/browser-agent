@@ -1,0 +1,13 @@
+PAGE title="Inbox" url="https://shop.example/" snapshot="test-snapshot-id" epoch=0
+
+MAIN @1
+  REGION @2 "Notifications"
+    GROUP @6
+      TEXT "Your order #1004 has shipped."
+      BUTTON @3 "Dismiss"
+    GROUP @7
+      TEXT "Price drop on a saved item."
+      BUTTON @4 "Dismiss"
+    GROUP @8
+      TEXT "New login from a recognized device."
+      BUTTON @5 "Dismiss"

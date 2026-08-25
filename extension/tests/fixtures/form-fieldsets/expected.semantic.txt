@@ -1,0 +1,8 @@
+PAGE title="Checkout" url="https://shop.example/" snapshot="test-snapshot-id" epoch=0
+
+FORM @1 "Shipping"
+  GROUP @2 "Contact"
+    TEXTBOX @3 "Email" value="ash@example.com"
+  GROUP @4 "Address"
+    TEXTBOX @5 "Street" value="123 Main St"
+  BUTTON @6 "Continue"
